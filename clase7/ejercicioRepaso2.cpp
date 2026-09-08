@@ -10,7 +10,7 @@ con & = variable original
 #include <iostream>
 using namespace std;
 
-void aumentar(int x)
+void aumentar(int &x)
 {
     x = x + 1;
     cout << "Dentro de la funcion, x vale: " << x << endl;
