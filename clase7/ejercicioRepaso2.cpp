@@ -16,6 +16,7 @@ void aumentar(int &x)
     cout << "Dentro de la funcion, x vale: " << x << endl;
 }
 
+
 int main()
 {
     int a = 10;
