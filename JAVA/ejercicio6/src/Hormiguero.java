@@ -53,7 +53,7 @@ public class Hormiguero {
     }
 
     // Metodo para alimentar una hormiguera
-    public void alimetnarHormiga(int id) {
+    public void alimentarHormiga(int id) {
         Hormiga hormiga = buscarPorId(id);
 
         if (hormiga == null) {
